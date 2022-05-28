@@ -44,4 +44,5 @@ footer {background: #202020;}
 footer .container {text-align: center; padding: 20px;}
 footer .container .socials a {color: #fff; text-decoration: none; padding: 10px;}
 
-button {background-color: #ecb6e3; border: 0; padding: 10px; cursor: pointer;}
+button {background-color: #ecb6e3; border: 0; padding: 10px; cursor: pointer; transition: .3s all ease;}
+button:hover {background-color: #e16dce;}
