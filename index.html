@@ -103,9 +103,14 @@
         <div class="container">
             <h2>Atualizações</h2>
             <div class="register">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <button>Cadastrar</button>
+                <input type="text" placeholder="Name" id="name">
+                <input type="text" placeholder="Email" id="email">
+                <button onclick="alert(
+                    register(
+                        $('#name').val(),
+                        $('#email').val()
+                    )
+                )">Cadastrar</button>
             </div>
         </div>
     </section>
@@ -138,8 +143,17 @@
 </body>
 
 <script>
+    // Open & close faq items
     $('.faq > div').on('click', function() {
         $(this).toggleClass('active');
     });
+
+    // Register / Alert user when 
+    function register (name, email) {
+        if (!name || !email) {
+            return 'Por favor, preencha o nome e o email';
+        }
+        return `Obrigado ${name}!`;
+    }
 </script>
 </html>
