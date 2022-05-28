@@ -12,8 +12,7 @@ h3, p {
 header {background: #202020;}
 header .container {display: flex; padding: 20px;}
 header .container nav {margin: auto;}
-header .container nav a {text-decoration: none; color: #fff; padding: 10px; border-radius: 3px;}
-header .container nav a.active {background: #909090;}
+header .container nav div {display: inline; text-decoration: none; color: #fff; padding: 10px; border-radius: 3px; cursor: pointer;}
 
 section.bg-color {background-color: #ecb6e3;}
 section.bg-grey  {background-color: #f1f2f3;}
