@@ -39,3 +39,7 @@ small {font-size: 13px;}
 
 .register {display: grid; grid-template-columns: 1fr auto; gap: 20px;}
 input[type="text"] {padding: 10px;}
+
+footer {background: #202020;}
+footer .container {text-align: center; padding: 20px;}
+footer .container .socials a {color: #fff; text-decoration: none; padding: 10px;}
