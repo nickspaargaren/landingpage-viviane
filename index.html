@@ -4,6 +4,7 @@
    <title>Viviane HairCon | Tudo para sua beleza</title>
    <meta name="description" content="Viviane haircon e um salão especializados em colorimetria, consultoria de imagem e técnica de visagismo. Corte, mechas, luzes, técnicas de alisamento e coloração: Oferecemos a orientação necessária para resultados surpreendentes para cada perfil.">
    <link rel="stylesheet" href="style.css">
+   <script src="scripts/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -137,10 +138,8 @@
 </body>
 
 <script>
-    document.querySelectorAll('.faq > div').forEach(function(faqItem){
-        faqItem.addEventListener('click', function(){
-            faqItem.classList.toggle('active');
-        });
+    $('.faq > div').on('click', function() {
+        $(this).toggleClass('active');
     });
 </script>
 </html>
