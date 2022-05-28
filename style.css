@@ -7,3 +7,12 @@ header .container {display: flex;}
 header .container nav {margin: auto 0 auto auto;}
 header .container nav a {text-decoration: none; color: #fff; padding: 10px; border-radius: 3px;}
 header .container nav a.active {background: #909090;}
+
+section.bg-color {background-color: #2ebcff;}
+section.bg-grey  {background-color: #f1f2f3;}
+
+.two-columns {display: grid; grid-template-columns: 1fr 1fr; gap: 20px;}
+.three-columns {display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;}
+
+.block {background: #fff; border-radius: 3px;}
+.block .content {padding: 10px;}
