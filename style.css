@@ -20,7 +20,8 @@ section.bg-grey  {background-color: #f1f2f3;}
 .two-columns {display: grid; grid-template-columns: 1fr 1fr; gap: 20px;}
 .three-columns {display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;}
 
-.block {background: #fff; border-radius: 3px; box-shadow: 0 10px 15px -6px rgba(0,0,0, .15); border: 1px solid #eee;}
+.block {background: #fff; border-radius: 3px; box-shadow: 0 10px 15px -6px rgba(0,0,0, .15); border: 1px solid #eee; transition: .3s all ease;}
+.block:hover {transform: scale(1.04);}
 .block .content {padding: 20px;}
 
 .price {
