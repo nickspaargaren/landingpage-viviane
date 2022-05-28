@@ -67,8 +67,36 @@
             </div>
         </div>
     </section>
-
     <section>
+        <div class="container">
+            <h2>Perguntas frequentes</h2>
+            
+            <div class="faq">
+                <div class="block">
+                    <div class="question">Quantas vezes é bom cortar o cabelo por ano?</div>
+                    <div class="answer">
+                        Cabelos temporários e longos podem ser cortados algumas vezes ao ano. Se você tem o traje de investimento em tratamentos para deixar os fios longos sem dois cortes bem hidratados que como não combinam os dois meses posteriores o corte.
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="question">O que eu preciso saber antes de fazer luzes no cabelo?</div>
+                    <div class="answer">
+                        Use um shampoo de limpeza profunda antes de começar os tratamentos, hidratação e nutrição também devem fazer parte da preparação, Não deixe de fazer os testes de toque e mecha.
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="question">Qual a diferença entre o fio seco e O Fio ressecado?</div>
+                    <div class="answer">Os fios secos são uma característica hereditária e precisam de cuidado durante toda a vida, já o ressecamento acontece pelos danos químicos e físicos ao cabelo que, sem o devido cuidado, passam a modificar textura e aspecto das madeixas</div>
+                </div>
+                <div class="block">
+                    <div class="question">Qual a frequência de lavagem ideal?</div>
+                    <div class="answer">Ideal é não ficar mais de três dias sem lavar o cabelo , o lavando de duas a três vezes por semana. Se você fica muito tempo sem lavar o cabelo , isso pode alterar o couro cabeludo, o que pode deixar mais ácido.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-grey">
         <div class="container">
             <h2>Team</h2>
             <div class="two-columns">
@@ -82,4 +110,12 @@
         </div>
     </section>
 </body>
+
+<script>
+    document.querySelectorAll('.faq > div').forEach(function(faqItem){
+        faqItem.addEventListener('click', function(){
+            faqItem.classList.toggle('active');
+        });
+    });
+</script>
 </html>
